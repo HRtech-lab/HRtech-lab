@@ -16,6 +16,6 @@ PhD researcher in Computing Science at the University of Aberdeen. My research i
 
 ## Computational science
 
-[Computational Biology](https://github.com/HRtech-lab/Computational_Biology_with_Python) covers sequence alignment, genome algorithms and protein analysis. [Haplotype](https://github.com/HRtech-lab/haplotype) introduces genetic phase and haplotype frequencies. [Robotics](https://github.com/HRtech-lab/Robotics_with-Hassan) covers sensing, estimation, planning and control. The [Linux and macOS command reference](https://github.com/HRtech-lab/HRtech-lab-Shell_Commands_for_Computational_biology_Bioinformatics) includes shell examples for both platforms.
+[Computational Biology](https://github.com/HRtech-lab/Computational-Biology) covers sequence alignment, genome algorithms and protein analysis. [Haplotype](https://github.com/HRtech-lab/Haplotype) introduces genetic phase and haplotype frequencies. [Robotics](https://github.com/HRtech-lab/Robotics) covers sensing, estimation, planning and control. The [Linux and macOS command reference](https://github.com/HRtech-lab/Linux-and-macOS-Commands) includes shell examples for both platforms.
 
 Each course includes source code and worked notebooks with saved outputs. References and dataset credits are given alongside the examples. [MIT licence](https://github.com/HRtech-lab/HRtech-lab/blob/main/LICENSE)
