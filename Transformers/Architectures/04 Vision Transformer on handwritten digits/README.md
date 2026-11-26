@@ -22,6 +22,8 @@ One held-out pass supplies class predictions, a confusion matrix and log loss. T
 
 ## Interpreting the result
 
+The model classified 442 of 450 held-out images correctly. Balanced accuracy was 0.982 and macro F1 was 0.982. Those scores concern an image-level split of the small optical digit images.
+
 Errors away from the diagonal identify pairs worth inspecting in the original images. These scores describe small images and a single image-level split.
 
 ![Vision Transformer on handwritten digits, worked result](figure.svg)

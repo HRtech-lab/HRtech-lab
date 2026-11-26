@@ -27,6 +27,8 @@ The bright off-diagonal band follows the clockwise successor. The colour scale i
 
 ## Interpreting the result
 
+Tying the weights reduced the parameter count from 85 to 55. Both models produced test perplexity of about 2.40 on the independently sampled transitions.
+
 The table counts unique trainable parameters. Reusing a tensor saves one vocabulary matrix. On a six-symbol task, held-out perplexity also depends on the finite sample of transitions.
 
 ![Token embeddings and tied output weights, worked result](figure.svg)

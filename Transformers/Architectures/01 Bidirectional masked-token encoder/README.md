@@ -29,6 +29,8 @@ Score each held-out quadruple eight times, once at every masked position. The un
 
 ## Interpreting the result
 
+Accuracy ranged from 35.4% to 72.0% across the eight masked sites, compared with 16.7% for a uniform guess. The learned retrieval rule worked unevenly across positions on unseen quadruples.
+
 A mask in the first half requires access to a later position. The split measures whether the model can retrieve from a sequence combination it did not see in training.
 
 ![Bidirectional masked-token encoder, worked result](figure.svg)

@@ -28,6 +28,8 @@ Fit a logistic probe on training features only. A separate pair of test views su
 
 ## Interpreting the result
 
+The test cross-correlation had a mean diagonal of 0.888 and an off-diagonal RMS of 0.261. The trained-feature probe classified 95.6% of test digits correctly, compared with 96.7% for the frozen random encoder.
+
 The probe uses the 32 encoder features and the correlation plot uses the 24 projection features. They answer different questions about the same training run.
 
 ![Barlow Twins, worked result](figure.svg)

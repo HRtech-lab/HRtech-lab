@@ -29,6 +29,8 @@ Test foreground prevalence: 0.081
 
 ## Interpreting the result
 
+Of 3,840 held-out tubelets, 312 contained the centre of the moving point. Average precision was 0.990 for the hidden-only model and 0.997 for the dense, two-level model. Both encoders solved most of this simple foreground task.
+
 Read average precision alongside foreground prevalence. The score depends on how well tubelets are ranked, while F1 also depends on the threshold. The first test clip supplies the visual example.
 
 ![V-JEPA 2.1 dense video features, worked result](figure.svg)

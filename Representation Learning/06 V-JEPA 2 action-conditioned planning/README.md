@@ -33,6 +33,8 @@ Draw distinct nontrivial pairs that can be connected in exactly three moves. The
 
 ## Interpreting the result
 
+On the 36 withheld state-action pairs, the learned transition cut latent MAE from 0.490 for persistence to 0.152. The three-move planner reached all 80 goals on this board. Four of the 80 random plans happened to reach theirs.
+
 Transition prediction and planning have different denominators. The first table withholds individual actions from dynamics training. Planning evaluates ordered start-goal pairs on the same board, using an environment whose states are familiar.
 
 ![V-JEPA 2 action-conditioned planning, worked result](figure.svg)

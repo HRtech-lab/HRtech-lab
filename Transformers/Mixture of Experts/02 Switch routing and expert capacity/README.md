@@ -27,6 +27,8 @@ At capacity factor 1.25, compare demand and completed expert calls. Token order 
 
 ## Interpreting the result
 
+With 60 slots per expert, the balanced batch admitted all 192 tokens. In the skewed batch, 165 tokens selected one expert and 105 missed an expert update. Each of those tokens still followed the residual path.
+
 The auxiliary term diagnoses the distribution of demand before clipping. Increasing capacity can lower the drop fraction even though that term is unchanged for the same logits.
 
 ![Switch routing and expert capacity, worked result](figure.svg)

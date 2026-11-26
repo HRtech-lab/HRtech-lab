@@ -29,6 +29,8 @@ At evaluation each example has one fixed random mask. A position-specific averag
 
 ## Interpreting the result
 
+Hidden-pixel MSE fell from 0.07492 for the training mean to 0.07451 for the decoder, while MAE rose from 0.19651 to 0.19993. The two errors weight large deviations differently. The probe gained about one percentage point over the random encoder.
+
 The finished images preserve the four observed patches. Hidden-pixel metrics prevent that copied information from artificially lowering the reconstruction error.
 
 ![Masked autoencoding, worked result](figure.svg)

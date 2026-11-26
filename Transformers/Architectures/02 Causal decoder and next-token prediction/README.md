@@ -29,6 +29,8 @@ Exact six-token greedy continuation: 1.000 on 112 held-out motifs
 
 ## Interpreting the result
 
+All 112 unseen motifs continued correctly for six greedy steps after their three-symbol prefix. Next-token accuracy on the first two targets was only 6.7%. Averaging across those two types of target would conceal their different information content.
+
 The position-wise curve distinguishes retrieval of a repeated motif from guessing the initial symbols. Exact continuation demands six consecutive correct decisions.
 
 ![Causal decoder and next-token prediction, worked result](figure.svg)

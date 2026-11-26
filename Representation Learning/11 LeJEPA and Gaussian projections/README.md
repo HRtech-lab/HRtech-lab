@@ -30,6 +30,8 @@ Use the same sample size and the same 64 fixed evaluation directions for the tra
 
 ## Interpreting the result
 
+The held-out sliced statistic was 96.09, between the constant cloud at 183.92 and the finite Gaussian reference at 0.89. The probe reached 75.8%, below the random encoder at 96.7%. This short run leaves substantial room between the learned projection distribution and its target.
+
 A histogram shows one direction, while the table averages discrepancies over 64. Finite samples from a Gaussian also have a positive statistic. The linear probe uses the encoder before the projection head.
 
 ![LeJEPA and Gaussian projections, worked result](figure.svg)

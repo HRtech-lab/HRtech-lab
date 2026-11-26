@@ -28,7 +28,9 @@ Class labels fit the linear probe. The entropy diagnostics use no labels and dis
 
 ## Interpreting the result
 
-A concentration on a few prototypes is visible in the marginal histogram. The frozen probe measures class information in the backbone before the projection head.
+The teacher used almost all 16 prototypes in aggregate, yet its mean per-image entropy was 2.724 nats, close to the uniform value of 2.773. Its individual predictions were diffuse. The trained backbone also had lower effective rank and probe accuracy than its frozen random baseline.
+
+The frozen probe measures class information in the backbone before the projection head.
 
 ![DINO self-distillation, worked result](figure.svg)
 

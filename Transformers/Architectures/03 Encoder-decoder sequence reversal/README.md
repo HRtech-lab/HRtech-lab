@@ -30,6 +30,8 @@ Compare teacher-forced token accuracy with token and whole-string accuracy when 
 
 ## Interpreting the result
 
+All 145 unseen strings were reversed exactly under greedy decoding. The test uses four-symbol strings drawn from the same five-symbol alphabet as training. Longer inputs require a different position table and a separate test.
+
 Exact-string accuracy is more demanding than token accuracy. If the two decoding protocols disagree, inspect the first wrong symbol and its effect on later positions.
 
 ![Encoder-decoder sequence reversal, worked result](figure.svg)
