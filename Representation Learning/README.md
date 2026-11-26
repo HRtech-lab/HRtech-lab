@@ -1,5 +1,7 @@
 # Representation Learning
 
+The [standalone Representation Learning repository](https://github.com/HRtech-lab/Representation-Learning) contains this course and its additional runnable examples.
+
 What should a model keep when part of an observation is hidden? A joint-embedding predictive architecture (JEPA) learns to predict a target representation from context. The image and video chapters follow this idea from masked spatial blocks to visual planning. Other chapters approach the same question through contrast, self-distillation, redundancy reduction and reconstruction.
 
 ## Worked examples

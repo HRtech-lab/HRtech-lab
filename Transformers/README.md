@@ -1,5 +1,7 @@
 # Transformers
 
+The [standalone Transformers repository](https://github.com/HRtech-lab/Transformers) contains this course and its additional runnable examples.
+
 A transformer combines token representations, attention and position-wise feed-forward layers. Start with a lookup table and watch a single query retrieve a value. Once the calculation is familiar, follow it through a decoder, a cache and a sparsely routed expert layer.
 
 ## Course

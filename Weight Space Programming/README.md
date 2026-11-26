@@ -1,5 +1,7 @@
 # Weight Space Programming
 
+The [standalone Weight Space Programming repository](https://github.com/HRtech-lab/Weight-Space-Programming) contains this course and its additional runnable examples.
+
 A weight matrix can be written down from a specification. For example, subtract the inputs in both directions, rectify the differences, then add the results. The resulting two-unit network computes XOR on binary inputs and absolute difference over the whole plane. A truth-table check covers the first claim. The second follows from the algebra.
 
 This course starts with direct parameter construction, moves on to parameter generation and constrained edits, and compares established methods for aligning or merging checkpoints. The final workshop opens a fitted checkpoint, installs a specified new response and measures its effect on independent inputs. The latter methods are closely related tools for reasoning about parameter space. Each lecture includes runnable Python, an executed notebook, an exercise and a figure from the recorded run. [WeightCode preprint](https://arxiv.org/abs/2611.25476) · [Tracr](https://arxiv.org/abs/2301.05062)

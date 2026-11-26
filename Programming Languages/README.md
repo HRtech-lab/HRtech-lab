@@ -1,5 +1,7 @@
 # Programming Languages
 
+The [standalone Programming Languages repository](https://github.com/HRtech-lab/Programming-Languages) contains this course and its additional runnable examples.
+
 Nine introductory courses, eight lectures each. Using the same small fixtures makes differences in types, iteration, missing values and error handling visible across languages. Each course ends with a language-specific workshop and a numerical accuracy exercise. Its full-length lecture notes include the native results, figures, exercises and a capstone.
 
 | Course | Native runtime | Language workshop |

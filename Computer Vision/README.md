@@ -1,5 +1,7 @@
 # Computer Vision
 
+The [standalone Computer Vision repository](https://github.com/HRtech-lab/Computer-Vision) contains this course and its additional runnable examples.
+
 The image labs begin with boundaries and gradient descriptors, then use a convolutional network for classification and a U-Net for binary segmentation. The video labs follow motion from frame to frame and then classify short clips.
 
 | Track | Examples | What the output measures |

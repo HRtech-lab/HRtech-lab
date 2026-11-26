@@ -1,5 +1,7 @@
 # Cybersecurity
 
+The [standalone Cybersecurity repository](https://github.com/HRtech-lab/Cybersecurity) contains this course and its additional runnable examples.
+
 A defensive computing course built around local, reproducible checks. Begin by checking a file against a trusted record, then study authenticated records, password verifiers, access reviews, logging, read-only reporting, tested restores and signed releases. All examples operate on generated keys, temporary files, in-memory databases or constructed event records.
 
 ## Three questions about a file
